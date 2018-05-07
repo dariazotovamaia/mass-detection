@@ -37,7 +37,7 @@ public class FlowerDataSetIterator {
     private static final int height = 224;
     private static final int width = 224;
     private static final int channels = 3;
-    private static final int numClasses = 5;
+    private static final int numClasses = 2;
 
     private static ParentPathLabelGenerator labelMaker = new ParentPathLabelGenerator();
     private static InputSplit trainData,testData;
